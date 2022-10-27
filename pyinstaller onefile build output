@@ -1,11 +1,11 @@
-C:\Users\jmcmilla\Desktop\helloworld>python -m PyInstaller --onefile --runtime-tmpdir ./tmp --debug=all hello_world.py
+C:\Users\jmcmi\Desktop\helloworld>python -m PyInstaller --onefile --runtime-tmpdir ./tmp --debug=all hello_world.py
 2239 INFO: PyInstaller: 5.2
 2239 INFO: Python: 3.7.3 (conda)
 2243 INFO: Platform: Windows-10-10.0.19041-SP0
-2252 INFO: wrote C:\Users\jmcmilla\Desktop\helloworld\hello_world.spec
+2252 INFO: wrote C:\Users\jmcmi\Desktop\helloworld\hello_world.spec
 2263 INFO: UPX is not available.
 2272 INFO: Extending PYTHONPATH with paths
-['C:\\Users\\jmcmilla\\Desktop\\helloworld']
+['C:\\Users\\jmcmi\\Desktop\\helloworld']
 4430 INFO: checking Analysis
 4431 INFO: Building Analysis because Analysis-00.toc is non existent
 4433 INFO: Initializing module dependency graph...
@@ -15,7 +15,7 @@ C:\Users\jmcmilla\Desktop\helloworld>python -m PyInstaller --onefile --runtime-t
 21719 INFO: running Analysis Analysis-00.toc
 21744 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable
   required by C:\ProgramData\Anaconda3\python.exe
-22226 INFO: Analyzing C:\Users\jmcmilla\Desktop\helloworld\hello_world.py
+22226 INFO: Analyzing C:\Users\jmcmi\Desktop\helloworld\hello_world.py
 22230 INFO: Processing module hooks...
 22234 INFO: Loading module hook 'hook-difflib.py' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\PyInstaller\\hooks'...
 22238 INFO: Loading module hook 'hook-encodings.py' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\PyInstaller\\hooks'...
@@ -31,12 +31,12 @@ C:\Users\jmcmilla\Desktop\helloworld>python -m PyInstaller --onefile --runtime-t
 27886 INFO: Using Python library C:\ProgramData\Anaconda3\python37.dll
 27889 INFO: Found binding redirects:
 []
-27948 INFO: Warnings written to C:\Users\jmcmilla\Desktop\helloworld\build\hello_world\warn-hello_world.txt
-27995 INFO: Graph cross-reference written to C:\Users\jmcmilla\Desktop\helloworld\build\hello_world\xref-hello_world.html
+27948 INFO: Warnings written to C:\Users\jmcmi\Desktop\helloworld\build\hello_world\warn-hello_world.txt
+27995 INFO: Graph cross-reference written to C:\Users\jmcmi\Desktop\helloworld\build\hello_world\xref-hello_world.html
 28012 INFO: checking PYZ
 28012 INFO: Building PYZ because PYZ-00.toc is non existent
-28013 INFO: Building PYZ (ZlibArchive) C:\Users\jmcmilla\Desktop\helloworld\build\hello_world\PYZ-00.pyz
-28016 INFO: Building PYZ (ZlibArchive) C:\Users\jmcmilla\Desktop\helloworld\build\hello_world\PYZ-00.pyz completed successfully.
+28013 INFO: Building PYZ (ZlibArchive) C:\Users\jmcmi\Desktop\helloworld\build\hello_world\PYZ-00.pyz
+28016 INFO: Building PYZ (ZlibArchive) C:\Users\jmcmi\Desktop\helloworld\build\hello_world\PYZ-00.pyz completed successfully.
 28037 INFO: checking PKG
 28038 INFO: Building PKG because PKG-00.toc is non existent
 28039 INFO: Building PKG (CArchive) hello_world.pkg
@@ -45,7 +45,7 @@ C:\Users\jmcmilla\Desktop\helloworld>python -m PyInstaller --onefile --runtime-t
 30172 INFO: checking EXE
 30174 INFO: Building EXE because EXE-00.toc is non existent
 30174 INFO: Building EXE from EXE-00.toc
-30176 INFO: Copying bootloader EXE to C:\Users\jmcmilla\Desktop\helloworld\dist\hello_world.exe.notanexecutable
+30176 INFO: Copying bootloader EXE to C:\Users\jmcmi\Desktop\helloworld\dist\hello_world.exe.notanexecutable
 30354 INFO: Copying icon to EXE
 30362 INFO: Copying icons from ['C:\\ProgramData\\Anaconda3\\lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico']
 30496 INFO: Writing RT_GROUP_ICON 0 resource with 104 bytes
@@ -58,7 +58,7 @@ C:\Users\jmcmilla\Desktop\helloworld>python -m PyInstaller --onefile --runtime-t
 30508 INFO: Writing RT_ICON 7 resource with 1128 bytes
 30520 INFO: Copying 0 resources to EXE
 30521 INFO: Embedding manifest in EXE
-30527 INFO: Updating manifest in C:\Users\jmcmilla\Desktop\helloworld\dist\hello_world.exe.notanexecutable
+30527 INFO: Updating manifest in C:\Users\jmcmi\Desktop\helloworld\dist\hello_world.exe.notanexecutable
 30687 INFO: Updating resource type 24 name 1 language 0
 30702 INFO: Appending PKG archive to EXE
 30725 INFO: Fixing EXE headers
