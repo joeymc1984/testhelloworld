@@ -1,0 +1,65 @@
+C:\Users\jmcmilla\Desktop\helloworld>python -m PyInstaller --onefile --runtime-tmpdir ./tmp --debug=all hello_world.py
+2239 INFO: PyInstaller: 5.2
+2239 INFO: Python: 3.7.3 (conda)
+2243 INFO: Platform: Windows-10-10.0.19041-SP0
+2252 INFO: wrote C:\Users\jmcmilla\Desktop\helloworld\hello_world.spec
+2263 INFO: UPX is not available.
+2272 INFO: Extending PYTHONPATH with paths
+['C:\\Users\\jmcmilla\\Desktop\\helloworld']
+4430 INFO: checking Analysis
+4431 INFO: Building Analysis because Analysis-00.toc is non existent
+4433 INFO: Initializing module dependency graph...
+4459 INFO: Caching module graph hooks...
+4495 INFO: Analyzing base_library.zip ...
+21255 INFO: Caching module dependency graph...
+21719 INFO: running Analysis Analysis-00.toc
+21744 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable
+  required by C:\ProgramData\Anaconda3\python.exe
+22226 INFO: Analyzing C:\Users\jmcmilla\Desktop\helloworld\hello_world.py
+22230 INFO: Processing module hooks...
+22234 INFO: Loading module hook 'hook-difflib.py' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\PyInstaller\\hooks'...
+22238 INFO: Loading module hook 'hook-encodings.py' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\PyInstaller\\hooks'...
+25591 INFO: Loading module hook 'hook-heapq.py' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\PyInstaller\\hooks'...
+25595 INFO: Loading module hook 'hook-pickle.py' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\PyInstaller\\hooks'...
+25598 INFO: Loading module hook 'hook-platform.py' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\PyInstaller\\hooks'...
+25605 INFO: Loading module hook 'hook-xml.py' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\PyInstaller\\hooks'...
+26113 INFO: Looking for ctypes DLLs
+26122 INFO: Analyzing run-time hooks ...
+26127 INFO: Including run-time hook 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_subprocess.py'
+26135 INFO: Looking for dynamic libraries
+27885 INFO: Looking for eggs
+27886 INFO: Using Python library C:\ProgramData\Anaconda3\python37.dll
+27889 INFO: Found binding redirects:
+[]
+27948 INFO: Warnings written to C:\Users\jmcmilla\Desktop\helloworld\build\hello_world\warn-hello_world.txt
+27995 INFO: Graph cross-reference written to C:\Users\jmcmilla\Desktop\helloworld\build\hello_world\xref-hello_world.html
+28012 INFO: checking PYZ
+28012 INFO: Building PYZ because PYZ-00.toc is non existent
+28013 INFO: Building PYZ (ZlibArchive) C:\Users\jmcmilla\Desktop\helloworld\build\hello_world\PYZ-00.pyz
+28016 INFO: Building PYZ (ZlibArchive) C:\Users\jmcmilla\Desktop\helloworld\build\hello_world\PYZ-00.pyz completed successfully.
+28037 INFO: checking PKG
+28038 INFO: Building PKG because PKG-00.toc is non existent
+28039 INFO: Building PKG (CArchive) hello_world.pkg
+30160 INFO: Building PKG (CArchive) hello_world.pkg completed successfully.
+30171 INFO: Bootloader C:\ProgramData\Anaconda3\lib\site-packages\PyInstaller\bootloader\Windows-64bit\run_d.exe
+30172 INFO: checking EXE
+30174 INFO: Building EXE because EXE-00.toc is non existent
+30174 INFO: Building EXE from EXE-00.toc
+30176 INFO: Copying bootloader EXE to C:\Users\jmcmilla\Desktop\helloworld\dist\hello_world.exe.notanexecutable
+30354 INFO: Copying icon to EXE
+30362 INFO: Copying icons from ['C:\\ProgramData\\Anaconda3\\lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico']
+30496 INFO: Writing RT_GROUP_ICON 0 resource with 104 bytes
+30497 INFO: Writing RT_ICON 1 resource with 3752 bytes
+30500 INFO: Writing RT_ICON 2 resource with 2216 bytes
+30505 INFO: Writing RT_ICON 3 resource with 1384 bytes
+30506 INFO: Writing RT_ICON 4 resource with 37019 bytes
+30507 INFO: Writing RT_ICON 5 resource with 9640 bytes
+30508 INFO: Writing RT_ICON 6 resource with 4264 bytes
+30508 INFO: Writing RT_ICON 7 resource with 1128 bytes
+30520 INFO: Copying 0 resources to EXE
+30521 INFO: Embedding manifest in EXE
+30527 INFO: Updating manifest in C:\Users\jmcmilla\Desktop\helloworld\dist\hello_world.exe.notanexecutable
+30687 INFO: Updating resource type 24 name 1 language 0
+30702 INFO: Appending PKG archive to EXE
+30725 INFO: Fixing EXE headers
+33534 INFO: Building EXE from EXE-00.toc completed successfully.
